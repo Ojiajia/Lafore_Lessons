@@ -153,7 +153,7 @@ Array maxint(int arr[MAX])
         if (a.ar_struct < arr[i])
         {
             a.ar_struct = arr[i];
-            a.ar_id = i;
+            a.ar_id = i+1;
         }
 
     }
