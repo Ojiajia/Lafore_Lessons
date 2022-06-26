@@ -1,3 +1,5 @@
+// Глава 2. Основы программирования на C++
+
 #include <QCoreApplication>
 #include <iostream>
 #include <iostream>
