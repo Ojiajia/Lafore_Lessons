@@ -1,4 +1,4 @@
-// Глава №3. Циклы и ветвления.
+// Глава 3. Циклы и ветвления.
 using namespace std;
 #include <QCoreApplication>
 #include <iostream>
