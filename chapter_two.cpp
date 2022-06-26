@@ -187,30 +187,16 @@ void zadacha9()
     char dummychar = '\0';
     int a,b,c,d;
 
-    cout << "input first fraction (numerator/denominator)" << endl;
+    cout << "input first fraction (numerator/denominator != 0)" << endl;
     cin >> a >> dummychar >> b;
-    if (dummychar == '/')
-    {
-        cout << "okey!";
-    }
-    else
-        cout << "execute again!";
-
-    cout << "input second fraction (numerator/denominator)" << endl;
+    
+    cout << "input second fraction (numerator/denominator != 0)" << endl;
     cin >> c >> dummychar >> d;
-    if (dummychar == '/')
-    {
-        cout << "okey!";
-    }
-    else
-        cout << "execute again!";
-
-    if ((b)&&(d))
-    {
+  
       int num = a*d + b*c;
       int denum = b*d;
       cout << "sum =" << num << "/" << denum;
-    }
+    
 }
 
 /* Задача №10
