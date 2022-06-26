@@ -16,7 +16,7 @@ void zadacha4();
 void zadacha5();
 void zadacha6();
 void zadacha7();
-void zadacha9(); // не доделана
+void zadacha9(); 
 void zadacha10();
 void zadacha12();
 
@@ -164,11 +164,12 @@ void zadacha7()
  * считывать более одного значения за раз:
  * cin >> а >> dummychar >> b;
  */
-
 void zadacha9()
 {
     char dummychar = '\0';
-    int a,b;
+    int a,b,c,d;
+
+    cout << "input first fraction (numerator/denominator)" << endl;
     cin >> a >> dummychar >> b;
     if (dummychar == '/')
     {
@@ -176,6 +177,22 @@ void zadacha9()
     }
     else
         cout << "execute again!";
+
+    cout << "input second fraction (numerator/denominator)" << endl;
+    cin >> c >> dummychar >> d;
+    if (dummychar == '/')
+    {
+        cout << "okey!";
+    }
+    else
+        cout << "execute again!";
+
+    if ((b)&&(d))
+    {
+      int num = a*d + b*c;
+      int denum = b*d;
+      cout << "sum =" << num << "/" << denum;
+    }
 }
 
 /* Задача №10
