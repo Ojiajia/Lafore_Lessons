@@ -2,7 +2,6 @@
 
 #include <QCoreApplication>
 #include <iostream>
-#include <iostream>
 #include <iomanip>
 #include <stdio.h>
 #include <stdlib.h>
@@ -26,9 +25,7 @@ void zadacha12();
 
 int main()
 {
-//    zadacha1();
-//    zadacha2();
-//    zadacha3();
+
 //    zadacha4(); // "\" в конце каждой строки работает как TAB
 //    zadacha5(); // для проверки изменен курс валют в соответствии с текущим
 //    zadacha6();
@@ -90,6 +87,9 @@ void zadacha3()
  * Для разбиения на строчки используйте подходящую управляющую
  * последовательность.
  */
+
+// "\" в конце каждой строки работает как TAB
+
 void zadacha4()
 {
     cout << "One is for envy and one just for spite \n\
