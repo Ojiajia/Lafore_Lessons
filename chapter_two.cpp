@@ -25,9 +25,7 @@ void zadacha12();
 
 int main()
 {
-
-      zadacha7();
-
+    zadacha7();
     return 0;
 }
 
