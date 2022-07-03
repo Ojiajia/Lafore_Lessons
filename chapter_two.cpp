@@ -26,11 +26,7 @@ void zadacha12();
 int main()
 {
 
-//    zadacha4(); // "\" в конце каждой строки работает как TAB
-//    zadacha5(); // для проверки изменен курс валют в соответствии с текущим
-//    zadacha6();
       zadacha7();
-//    zadacha12();
 
     return 0;
 }
@@ -88,14 +84,12 @@ void zadacha3()
  * последовательность.
  */
 
-// "\" в конце каждой строки работает как TAB
-
 void zadacha4()
 {
-    cout << "One is for envy and one just for spite \n\
-            The cuts in my heart, they show me your eyes \n\
-            Don't make it better by twisting knife \n\
-            Turns all by itself, on to someone else";
+    cout << "One is for envy and one just for spite\n"
+            "The cuts in my heart, they show me your eyes\n"
+            "Don't make it better by twisting knife\n"
+            "Turns all by itself, on to someone else";
 }
 
 /* Задача №5
