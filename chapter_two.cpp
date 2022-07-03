@@ -120,13 +120,13 @@ void zadacha5()
  */
 void zadacha6()
 {
-
     double dollar;
     cout << "input the sum in $: ";
     cin >> dollar;
-    cout << "in pounds = " << dollar/1.37 << endl;
-    cout << "in franc = " << dollar/1.07 << endl;
-    cout << "in Japanese yen = " << dollar/0.0092 << endl;
+    cout << "in pounds = " << (1000*dollar)/1487 << endl;
+    cout << "in franc = " << (1000*dollar)/172 << endl;
+    cout << "in marks = " << (1000*dollar)/584 << endl;
+    cout << "in Japanese yen = " << (100000*dollar)/955 << endl;
 }
 
 /* Задача №7
